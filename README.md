@@ -1,44 +1,35 @@
-# README_GENERATOR
+# README Generator
 
-# Description:
-This application prompts the user with questions in the terminal and generates a README.md file based on the user's responses. It includes all essential elements and automatically generates license badges and links based on the provided information. This README was created using the README Generator app.
+A Node.js application that automates the creation of a professional `README.md` file based on user responses. It prompts users with terminal-based questions, incorporates license badges and links, and ensures all essential README elements are included.
 
+---
 
-# Table of Contents:
+## Table of Contents
 
-Usage
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [How to Contribute](#how-to-contribute)
+- [Tests](#tests)
+- [Questions](#questions)
 
-Credits
+---
 
-License
+## Usage
 
-# How to Contribute
+To use the README Generator:
 
-Tests
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jv0321/README_GENERATOR.git
+   cd README_GENERATOR
+   npm install
+   node index.js
 
-Questions
-
-
-# Usage:
-To use the app, simply run "node index.js" in the VSCode terminal and answer the questions as prompted. Press Enter after each response. When selecting a license, use the arrow keys to choose the desired public license and press Enter to confirm. Once all questions are answered, a message indicating "Your README has been created" will display in the terminal. You can find the generated README.md file in your VSCode file explorer. To add more details, open the README file and edit it using Markdown.
-
-
-# Credits:
-Special thanks to JD Tadlock for all the guidance provided in the Rutgers Coding Bootcamp.
-
-
-# License:
-MIT 
-
-
-# Link to License:
-You can also refer to the LICENSE file in the repository for more details.
-
-
-
-# Questions:
-If you have any questions, feel free to visit my GitHub repository.
-
-
-This revised version aims to provide a clearer and more concise representation of the README Generator's features and instructions.
-
+## Answer questions in terminal
+ ```bash
+Enter responses for each field and press Enter.
+Use arrow keys to select the desired license and press Enter to confirm.
+## After all questions are answered, a success message will appear:
+"Your README has been created"
+Find the generated README.md file in the project directory and edit it further if needed.
